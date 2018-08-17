@@ -1,0 +1,123 @@
+
+
+.business-header {
+    height: 400px;
+    width: 100%;
+    background: url('/images/banner.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.navbar-brand {
+  font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+    color: orange!important;
+
+}
+
+.navbar-brand:hover {
+
+    color: white !important;
+
+}
+
+
+.imgr{
+    padding: 10px;
+    float: right;
+}
+
+.imgl{
+    padding: 10px;
+    float: left;
+}
+
+
+
+.navbar .nav > li > a {
+    color: orange;
+}
+.navbar .nav > li > a:hover {
+    color: white;
+}
+
+.txtc {
+    text-align: center;
+}
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+}
+.sectionheading
+{
+        
+text-align: center;
+    
+}
+.tagline {
+   
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subtagline {
+   font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+h1{
+      font-family: 'Orbitron', sans-serif;
+}
+
+
+
+.block{
+    background-color: black;
+    color: white;
+
+}
+
+.pagecontainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textpad{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallery img{
+    padding: 5px;
+}
+
+
+footer{background-color: black;
+color: white;
+padding: 20px;}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+footer ul{
+    display: inline;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
