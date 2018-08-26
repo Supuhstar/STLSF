@@ -123,7 +123,7 @@
                     <h2 class="sectionheading textpad">Award Winning Space Outreach</h2>
                     <p class="textpad">St. Louis Space Frontier is dedicated to doing outreach in the community to share the passion for Space Exploration with people of all ages. You can find us at First Friday events at the St. Louis Science Center every month. Members also
                         complete outreach at area schools and public libraries. If you are interested in a presentation about Space Exploration for your organization, please contact us at
-                        <a href="mailto:STLSpaceFrontier@gmail.com">StLouisSpaceFrontier@gmail.com.</a>
+                        <a href="mailto:STLSpaceFrontier@gmail.com">STLSpaceFrontier@gmail.com.</a>
                     </p>
                     <div class=gallery>
                         <div class="col-sm-4">
@@ -163,85 +163,37 @@
                 </div>
             </div>
         </div>
-    
-    
-    <div class=" block">
-            <div class="container pagecontainer">
 
+
+        <div class=" block">
+            <div class="container pagecontainer">
                 <div>
                     <h2 class="sectionheading textpad">Contact Us!</h2>
-                    <p class="textpad">St. Louis Space Frontier is dedicated to doing outreach in the community to share the passion for Space Exploration with people of all ages. You can find us at First Friday events at the St. Louis Science Center every month. Members also
-                        complete outreach at area schools and public libraries. If you are interested in a presentation about Space Exploration for your organization, please contact us at
-                        <a href="mailto:StLouisSpaceFrontier@gmail.com">StLouisSpaceFrontier@gmail.com.</a>
+                    <p class="textpad">
+                        St. Louis Space Frontier is dedicated to doing outreach in the community to share the passion for
+                        Space Exploration with people of all ages. You can find us at First Friday events at the St. Louis
+                        Science Center every month. Members also complete outreach at area schools and public libraries. If
+                        you are interested in a presentation about Space Exploration for your organization, please contact
+                        us at <a href="mailto:STLSpaceFrontier@gmail.com">STLSpaceFrontier@gmail.com</a>.
                     </p>
-                    
-                    
-                    
-                    
-                    
-                    <form name="contactform" method="post" action="send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- </td>
-</tr>
-</table>
-</form>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+                    <form name="contactform" id="contactform" method="post" action="send_form_email.php" class="row">
+                        <div class="form-group col-sm-6">
+                            <label for="first_name" class="control-label">Name *</label>
+                            <input type="text" name="name" class="form-control" size="30" />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="email" class="control-label">Email Address *</label>
+                            <input type="text" name="email" class="form-control" size="30" />
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label for="comments" class="control-label">Comments *</label>
+                            <textarea name="comments" maxlength="10000" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <input type="submit" value="Submit" class="btn btn-default" />
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
