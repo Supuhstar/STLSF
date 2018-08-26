@@ -86,6 +86,10 @@ h1 {
 }
 
 
+.pgcont {
+    min-height: 100vh;
+}
+
 
 .block {
     background-color: black;
